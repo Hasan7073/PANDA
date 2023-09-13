@@ -257,12 +257,12 @@ padding-bottom: 58px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-bottom: 24px;
 }
 .categories_contant{
-display: flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 .single_contant_1{
@@ -292,7 +292,7 @@ padding: 15px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background:var(--Linear, linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
     max-width: 359px;
     width: 100%;
     border-radius: 10px;
@@ -314,7 +314,7 @@ padding: 15px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(152deg, #FF9C35 1.47%, #FFD019 97.17%);
+    background: linear-gradient(170deg, #4289FF -10.89%, #3F07F8 92.77%);
     max-width: 359px;
     width: 100%;
     border-radius: 10px;
