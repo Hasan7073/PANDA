@@ -103,14 +103,21 @@ img{
 }
 
 /*====================*/
-.header_section{
 
+/*Start_Header_Section*/
+.header_section{
+padding-top: 50px;
+padding-bottom: 80px;
 }
 .custom_container{
-
+max-width: 1300px;
+  width: 100%;
+  margin: auto;
 }
 .manu{
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .logo_area{
 
@@ -121,18 +128,207 @@ img{
 .search_button{
 
 }
-.search_button input type:{
-
+.search_button input[type=text]{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 66px;
+    background: #F1F1F1;
+    padding-right: 180px;
+    padding-left: 40px;
+    border: aliceblue;
 }
 .nav_manu{
 
 }
 .nav_manu ul{
-
+    display: flex;
 }
 .nav_manu ul li{
-
+    padding-right: 40px;
 }
 .nav_manu ul li a{
-  
+    color: #707070;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
+.nav_manu ul li a:hover{
+color:#FEEAE9;
+}
+/*End_Header_Section*/
+
+/*banner_section*/
+.banner_section{
+padding-bottom: 64px;
+}
+.custom_container{
+
+}
+.banner_full{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FEEAE9;
+    padding: 38px 46px;
+    border-radius: 10px;
+}
+.banner_left{
+
+}
+.banner_contant{
+max-width: 560px;
+    margin: auto;
+    width: 100%;
+}
+.banner_contant h1{
+color: #1F1F1F;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.banner_contant p{
+color: #4E4E4E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+    max-width: 456px;
+    width: 100%;
+}
+.banner_contant h2{
+color: #FF136F;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.banner_button{
+border-radius: 6px;
+    background: var(--Linear, linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%));
+    display: inline-block;
+    padding: 14px 20px;
+}
+.banner_button a{
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.banner_button a:hover{
+color:#1F1F1F ;
+}
+
+.banner_button img{
+  color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+/*Start_categories_section*/
+.categories_section{
+
+}
+.custom_container{
+
+}
+.categories_full{
+padding-bottom: 58px;
+}
+.categories_heading{
+
+}
+.categories_heading h1{
+    color: #1F1F1F;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 50px;
+    padding-bottom: 24px;
+}
+.categories_contant{
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.single_contant_1{
+padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(152deg, #FF9C35 1.47%, #FFD019 97.17%);
+    max-width: 359px;
+    width: 100%;
+    border-radius: 10px;
+}
+.single_contant_1 h1{
+color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.single_contant_1 img{
+
+}
+
+.single_contant_2{
+padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:var(--Linear, linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    max-width: 359px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.single_contant_2 h1{
+color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.single_contant_2 img{
+
+}
+.single_contant_3{
+padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(152deg, #FF9C35 1.47%, #FFD019 97.17%);
+    max-width: 359px;
+    width: 100%;
+    border-radius: 10px;
+}
+.single_contant_3 h1{
+color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.single_contant_3 img{
+
+}
+
