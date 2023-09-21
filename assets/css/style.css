@@ -106,8 +106,8 @@ img{
 
 /*Start_Header_Section*/
 .header_section{
-padding-top: 50px;
-padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 63px;
 }
 .custom_container{
 max-width: 1300px;
@@ -126,16 +126,21 @@ max-width: 1300px;
 
 }
 .search_button{
-
+    max-width: 508px;
+    width: 100%;
+    margin: auto;
+    display: inline-block;
 }
 .search_button input[type=text]{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 66px;
+border-radius: 66px;
     background: #F1F1F1;
-    padding-right: 180px;
-    padding-left: 40px;
+    display: inline-block;
+    max-width: 390px;
+    width: 100%;
+    margin: 0px 56px;
+    border-color: #e1e1e1;
     border: aliceblue;
+    padding: 10px 10px;
 }
 .nav_manu{
 
@@ -155,8 +160,10 @@ max-width: 1300px;
     line-height: normal;
 }
 .nav_manu ul li a:hover{
-color:#FEEAE9;
+color:#fa1973;
+transition: .5s;
 }
+
 /*End_Header_Section*/
 
 /*banner_section*/
@@ -374,7 +381,7 @@ display: flex;
 }
 .shoes_single{
 text-align: center;
-    max-width: 336px;
+    max-width: 360px;
     margin: auto;
     width: 100%;
     padding: 50px 24px;
