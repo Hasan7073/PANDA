@@ -232,9 +232,9 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.banner_button a:hover{
-color:#1F1F1F ;
-transition: 0.6s;
+.banner_button:hover{
+ color:##fa7e19 ;
+transition: 0.6s; 
 }
 
 .banner_button img{
@@ -447,8 +447,9 @@ color: #FFF;
 }
 
 .tuch_full{
-    background: #FFF2F1;
+      background: #FFF2F1;
     padding: 147px 0px;
+    border-radius: 20px;
 }
 .tuch_heading {
 
