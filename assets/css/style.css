@@ -234,6 +234,7 @@ line-height: normal;
 }
 .banner_button a:hover{
 color:#1F1F1F ;
+transition: 0.6s;
 }
 
 .banner_button img{
@@ -423,6 +424,10 @@ border-radius: 6px;
     background: #000;
     display: inline;
     padding: 14px 30px;
+}
+.shoes_button:hover{
+  transition: 0.6s;
+  background: #fa1973;
 }
 .shoes_button a{
 color: #FFF;
