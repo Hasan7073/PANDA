@@ -492,14 +492,14 @@ color: #1F1F1F;
 }
 
 .tuch_button input[type=submit]{
-    color: #ffffff;
+color: #ffffff;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     padding: 10px 24px;
-    background: #ff58e6;
+    background: #FF589B;
     border: #dfdfdf;
 }
 /*End_tuch_area_section*/
