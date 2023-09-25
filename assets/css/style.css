@@ -473,7 +473,7 @@ color: #1F1F1F;
     padding-bottom: 16px;
 }
 .tuch_button{
-
+    display: inline-flex;
 }
 
 .tuch_button input[type=text]{
